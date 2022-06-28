@@ -484,7 +484,7 @@ header.affix .navbar-nav { margin-top: 6px; }
 .banner-03 h1 small { font-size: 18px; display: block; text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1); }
 .banner-03 .link { position: absolute; bottom: 60px; left: 0; display: inline-block; width: 330px; }
 .banner-03 .link h5 { margin-bottom: 20px; position: relative; display: inline-block; }
-.banner-03 .link h5:before { position: absolute; top: 20px; right: -25px; content: ""; background: url('../images/arrow.png') no-repeat 0 0; width: 61px; height: 58px; }
+/*.banner-03 .link h5:before { position: absolute; top: 20px; left: -25px; content: ""; background: url('../images/arrow.png') no-repeat 0 0; width: 61px; height: 58px; }*/
 .banner-03 .link li { margin: 0 5px; }
 .banner-03 .link li a { font-size: 40px; color: #fff; text-shadow: 0px 2px 10px rgba(0, 0, 195, 0.15); }
 .iq-mobile-app .iq-mobile-box { position: relative; text-align: center; display: inline-block; margin-bottom: -159px; margin-top: -30px; }
@@ -495,6 +495,14 @@ header.affix .navbar-nav { margin-top: 6px; }
 .iq-mobile-app .icon-03 { right: -20px; top: 100px; z-index: 9; }
 .iq-mobile-app .icon-04 { right: -50px; top: 300px; }
 .iq-mobile-app .icon-05 { left: 20px; bottom: 145px; z-index: 9; }
+
+.banner-03 .link-01 { position: absolute; bottom: 60px; right: 0; display: inline-block; width: 330px; }
+.banner-03 .link-01 h5 { margin-bottom: 20px; position: relative; display: inline-block; }
+/*.banner-03 .link-01 h5:before { position: absolute; top: 20px; left: -25px; content: ""; background: url('../images/arrow.png') no-repeat 0 0; width: 61px; height: 58px; }*/
+.banner-03 .link-01 li { margin: 0 5px; }
+.banner-03 .link-01 li a { font-size: 40px; color: #fff; text-shadow: 0px 2px 10px rgba(0, 0, 195, 0.15); }
+
+
 
 /*---------------------------------------------------------------------
                              Feature
