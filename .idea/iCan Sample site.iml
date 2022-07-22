@@ -9,5 +9,8 @@
     <orderEntry type="library" name="OwlCarousel2" level="application" />
     <orderEntry type="library" name="jquery" level="application" />
     <orderEntry type="library" name="owl.carousel" level="application" />
+    <orderEntry type="library" name="jquery-3.6.0" level="application" />
+    <orderEntry type="library" name="jquery-2.2.4" level="application" />
+    <orderEntry type="library" name="slick-carousel" level="application" />
   </component>
 </module>

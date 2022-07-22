@@ -59,25 +59,25 @@ $(document).ready(function() {
 
 
 
-  /*************************
-    Img Skrollr
-  *************************/
-  function imgskrollr() {
-    var mySkrollr = skrollr.init({
-        forceHeight: false,
-        easings: {
-            easeOutBack: function(p, s) {
-                s = 1.70158;
-                p = p - 1;
-                return (p * p * ((s + 1) * p + s) + 1);
+    /*************************
+     Img Skrollr
+     *************************/
+    function imgskrollr() {
+        var mySkrollr = skrollr.init({
+            forceHeight: false,
+            easings: {
+                easeOutBack: function(p, s) {
+                    s = 1.70158;
+                    p = p - 1;
+                    return (p * p * ((s + 1) * p + s) + 1);
+                }
+            },
+            mobileCheck: function() {
+                //hack - forces mobile version to be off
+                return false;
             }
-        },
-        mobileCheck: function() {
-            //hack - forces mobile version to be off
-            return false;
-        }
-    });
- }
+        });
+    }
 
 
 
@@ -96,7 +96,7 @@ $(document).ready(function() {
     });
 
 
-   
+
     /*------------------------
     Magnific Popup
     --------------------------*/

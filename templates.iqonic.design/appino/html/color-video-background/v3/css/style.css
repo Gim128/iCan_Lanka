@@ -642,25 +642,13 @@ header.affix .navbar-nav { margin-top: 6px; }
 	width: 200px;
 }
 
-.buttons {
-	position: fixed;
-	left: 50%;
-	transform: translateX(-50%);
+.button-slide {
+	position: relative;
+	/*left: 50%;*/
+	/*transform: translateX(-50%);*/
 	bottom: 10px;
+	text-align: center;
 }
-
-
-@keyframes  {
-	
-} screen {
-	
-}
-
-
-
-
-
-
 
 
 /*.home-screen-slide .owl-carousel .item { width: 236px; }*/
@@ -784,13 +772,13 @@ header.affix .navbar-nav { margin-top: 6px; }
 .iq-subscribe label { color: #fff; font-size: 22px; margin-bottom: 0; margin-right: 20px; vertical-align: middle; position: relative; }
 .iq-subscribe label:before { content: "\f422"; position: absolute; left: -60px; top: 2px; font-size: 50px; font-family: 'Ionicons'; font-size: 50px; }
 .iq-subscribe .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-color: #fff; }
+	color: #fff; }
 .iq-subscribe .form-control::-moz-placeholder { /* Firefox 19+ */
-color: #fff; }
+	color: #fff; }
 .iq-subscribe .form-control:-ms-input-placeholder { /* IE 10+ */
-color: #fff; }
+	color: #fff; }
 .iq-subscribe .form-control:-moz-placeholder { /* Firefox 18- */
-color: #fff; }
+	color: #fff; }
 
 /*---------------------------------------------------------------------
                               Full Contact
@@ -982,13 +970,13 @@ color: #fff; }
 .iq-error .iq-subscribe .form-group { width: 40%; }
 .iq-error .iq-subscribe .form-control {color: #333333; border-radius: 90px; height: 50px; width: 100%; display: inline-block; padding-left: 25px; box-shadow: none; border: none; background: #f4f4f4; }
 .iq-error .iq-subscribe .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-color: #c7c7c7; }
+	color: #c7c7c7; }
 .iq-error .iq-subscribe .form-control::-moz-placeholder { /* Firefox 19+ */
-color: #c7c7c7; }
+	color: #c7c7c7; }
 .iq-error .iq-subscribe .form-control:-ms-input-placeholder { /* IE 10+ */
-color: #c7c7c7; }
+	color: #c7c7c7; }
 .iq-error .iq-subscribe .form-control:-moz-placeholder { /* Firefox 18- */
-color: #c7c7c7; }
+	color: #c7c7c7; }
 /*---------------------------------------------------------------------
                             Coming Soon
 -----------------------------------------------------------------------*/
@@ -998,13 +986,13 @@ color: #c7c7c7; }
 .iq-coming .iq-subscribe .form-group { width: 40%; }
 .iq-coming .iq-subscribe .form-control {color: #333333; border-radius: 90px; height: 50px; width: 100%; display: inline-block; padding-left: 25px; box-shadow: none; border: none; background: #f4f4f4; }
 .iq-coming .iq-subscribe .form-control::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-color: #c7c7c7; }
+	color: #c7c7c7; }
 .iq-coming .iq-subscribe .form-control::-moz-placeholder { /* Firefox 19+ */
-color: #c7c7c7; }
+	color: #c7c7c7; }
 .iq-coming .iq-subscribe .form-control:-ms-input-placeholder { /* IE 10+ */
-color: #c7c7c7; }
+	color: #c7c7c7; }
 .iq-coming .iq-subscribe .form-control:-moz-placeholder { /* Firefox 18- */
-color: #c7c7c7; }
+	color: #c7c7c7; }
 
 
 .iq-coming .countdown-timer { border-radius: 5px; margin-bottom: 20px; max-width: 300px; margin: 50px auto; }
