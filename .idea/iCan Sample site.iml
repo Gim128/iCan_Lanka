@@ -12,5 +12,6 @@
     <orderEntry type="library" name="jquery-3.6.0" level="application" />
     <orderEntry type="library" name="jquery-2.2.4" level="application" />
     <orderEntry type="library" name="slick-carousel" level="application" />
+    <orderEntry type="library" name="4ed2c37342" level="application" />
   </component>
 </module>
