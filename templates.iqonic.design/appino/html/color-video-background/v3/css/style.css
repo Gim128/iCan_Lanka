@@ -533,56 +533,88 @@ header.affix .navbar-nav { margin-top: 6px; }
 
 /*navbar drop down*/
 
-header ul ul li{
-	position: relative;
-	/*top: -10px;*/
-	/*left: 50px;*/
-}
+/*header ul ul li{*/
+/*	position: relative;*/
+/*	!*top: -10px;*!*/
+/*	!*left: 50px;*!*/
+/*}*/
 
-.drop-down {
-	position: absolute;
-	width: 150px;
-}
+/*.drop-down {*/
+/*	position: absolute;*/
+/*	width: 150px;*/
+/*}*/
 
-header ul ul li.drop-down  {
-	/*position: absolute;*/
-	top: 60px;
-	/*display: none;*/
-	width: 150px;
-	float: none;
-	display: list-item;
-	position: relative;
-}
-
-/*header ul ul li.drop-down {*/
+/*header ul ul li.drop-down  {*/
+/*	!*position: absolute;*!*/
+/*	top: 60px;*/
+/*	!*display: none;*!*/
 /*	width: 150px;*/
 /*	float: none;*/
 /*	display: list-item;*/
 /*	position: relative;*/
 /*}*/
 
-header ul li ul.drop-down a:hover{
-	background: #5bc0de;
+/*!*header ul ul li.drop-down {*!*/
+/*!*	width: 150px;*!*/
+/*!*	float: none;*!*/
+/*!*	display: list-item;*!*/
+/*!*	position: relative;*!*/
+/*!*}*!*/
+
+/*header ul li ul.drop-down a:hover{*/
+/*	background: #5bc0de;*/
+/*}*/
+
+/*header ul ul.drop-down li{*/
+/*	background-color: transparent;*/
+/*	!*position: absolute;*!*/
+/*	list-style: none;*/
+/*	display: inline-block;*/
+/*}*/
+
+/*header ul ul li.drop-down a{*/
+/*	display: block;*/
+/*	padding: 0 15px;*/
+/*	color: white;*/
+/*	text-decoration: none;*/
+/*	line-height: 60px;*/
+/*	font-size: 20px;*/
+/*}*/
+
+/*header ul ul li.drop-down ul li:hover > ul{*/
+/*	display: block;*/
+/*}*/
+
+.navbar-header .dropdown_menu ul li{
+	padding: 10px 30px;
+	position: relative;
 }
 
-header ul ul.drop-down li{
-	background-color: transparent;
-	/*position: absolute;*/
-	list-style: none;
-	display: inline-block;
-}
-
-header ul ul li.drop-down a{
-	display: block;
-	padding: 0 15px;
-	color: white;
-	text-decoration: none;
-	line-height: 60px;
+.dropdown_menu ul li a {
 	font-size: 20px;
+	transition: all 0.3s;
 }
 
-header ul ul li.drop-down ul li:hover > ul{
+.dropdown_menu {
+	display: none;
+}
+
+.navbar-header .dropdown_menu .dropdown_menu:hover {
 	display: block;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	background-color: #1E50E2;
+}
+
+.dropdown_menu ul {
+	display: block;
+	margin: 15px;
+}
+
+.dropdown_menu ul li {
+	width: 150px;
+	padding: 10px;
 }
 
 

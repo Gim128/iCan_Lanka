@@ -350,6 +350,17 @@ $(document).ready(function() {
     $('.carousel').carousel();
 
 
-
-
 });
+
+
+function check() {
+    var dropdown = document.getElementById("OperationType");
+    var current_value = dropdown.options[dropdown.selectedIndex].value;
+
+    if (current_value == "OpNo") {
+        document.getElementById("OperationNos").style.display = "block";
+    }
+    else {
+        document.getElementById("OperationNos").style.display = "none";
+    }
+}
