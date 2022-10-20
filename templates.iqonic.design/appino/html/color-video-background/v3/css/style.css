@@ -69,7 +69,7 @@ h1 { font-size: 54px; font-style: normal; line-height: 66px; }
 h2 { font-size: 36px; font-style: normal; line-height: 44px; }
 h3 { font-size: 32px; font-style: normal; line-height: 42px; }
 h4 { font-size: 24px; font-style: normal; line-height: 24px; }
-h5 { font-size: 20px; font-style: normal; line-height: 30px; }
+h5 { font-size: 32px; font-style: normal; line-height: 332px; }
 h6 { font-size: 18px; font-style: normal; line-height: 28px; }
 .lead { font-size: 16px; line-height: 24px; margin: 0; }
 ul { margin: 0px; padding: 0px; }
@@ -638,11 +638,22 @@ header.affix .navbar-nav { margin-top: 6px; }
 /*---------------------------------------------------------------------
                              Banner
 -----------------------------------------------------------------------*/
-.banner-03 { color: #fff; font-family: 'Raleway', sans-serif; position: relative; }
+.banner-03 { 
+	color: #fff; 
+	font-family: 'Raleway', sans-serif; 
+	position: relative; 
+	height: 830px;
+}
+
 .banner-03 h1 { font-size: 60px; line-height: 110px; text-shadow: 0px 20px 10px rgba(0, 0, 0, 0.1); margin-top: 15%; letter-spacing: 2px; }
 .banner-03 h1 small { font-size: 18px; display: block; text-shadow: 0px 0px 0px rgba(0, 0, 0, 0.1); }
 .banner-03 .link { position: absolute; bottom: 60px; left: 0; display: inline-block; width: 330px; }
-.banner-03 .link h5 { margin-bottom: 20px; position: relative; display: inline-block; }
+.banner-03 .link h5 { 
+	margin-bottom: 20px; 
+	position: relative; 
+	display: inline-block; 
+	left: -235px;
+}
 /*.banner-03 .link h5:before { position: absolute; top: 20px; left: -25px; content: ""; background: url('../images/arrow.png') no-repeat 0 0; width: 61px; height: 58px; }*/
 .banner-03 .link li { margin: 0 5px; }
 .banner-03 .link li a { font-size: 40px; color: #fff; text-shadow: 0px 2px 10px rgba(0, 0, 195, 0.15); }
@@ -656,11 +667,14 @@ header.affix .navbar-nav { margin-top: 6px; }
 .iq-mobile-app .icon-05 { left: 20px; bottom: 145px; z-index: 9; }
 
 .banner-03 .link-01 { position: absolute; bottom: 60px; right: 0; display: inline-block; width: 330px; }
-.banner-03 .link-01 h5 { margin-bottom: 20px; position: relative; display: inline-block; }
+.banner-03 .link-01 h5 { margin-bottom: 20px; position: relative; display: inline-block; right: -142px;}
 /*.banner-03 .link-01 h5:before { position: absolute; top: 20px; left: -25px; content: ""; background: url('../images/arrow.png') no-repeat 0 0; width: 61px; height: 58px; }*/
 .banner-03 .link-01 li { margin: 0 5px; }
 .banner-03 .link-01 li a { font-size: 40px; color: #fff; text-shadow: 0px 2px 10px rgba(0, 0, 195, 0.15); }
 
+.home-heading {
+	top: 25px;
+}
 
 
 /*---------------------------------------------------------------------
