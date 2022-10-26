@@ -688,7 +688,8 @@ header.affix .navbar-nav { margin-top: 6px; }
 		font-family: 'Raleway', sans-serif;
 		font-size: 25px;
 		position: relative;
-		height: 320px;
+		height: 295px;
+		display: none;
 	}
 
 	h5 {
@@ -697,14 +698,15 @@ header.affix .navbar-nav { margin-top: 6px; }
 	}
 
 	.iq-mobile-img {
-		
+		display: none;
 	}
 } 
 
 @media (min-width: 640px) {
-	.iq-home {
-		width: 40%;
-		height: 240px;
+	.iq-home .h5{
+		width: 30%;
+		height: 195px;
+		display: none;
 	} 
 } 
 
