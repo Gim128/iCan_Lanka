@@ -702,7 +702,7 @@ header.affix .navbar-nav { margin-top: 6px; }
 	}
 } 
 
-@media (min-width: 640px) {
+@media (min-width: 548px) {
 	.iq-home .h5{
 		width: 30%;
 		height: 195px;
